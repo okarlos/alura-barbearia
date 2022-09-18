@@ -12,22 +12,26 @@ nav {
   top: 120px;
   right: 0;
 }
-nav nav li {
+
+nav li {
   display: inline;
   margin: 0 0 0 15px;
 }
-nav nav a {
+
+nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
 }
-nav nav a nav a:hover {
+
+nav a:hover {
   color: #cc8924;
   text-decoration: underline;
 }
-nav .nav {
+
+.nav {
   position: relative;
   width: 940px;
   margin: 0 auto;
@@ -38,7 +42,8 @@ nav .nav {
   margin: 0 auto;
   padding: 50px 0;
 }
-.products .products li {
+
+.products li {
   display: inline-block;
   text-align: center;
   width: 30%;
@@ -49,23 +54,29 @@ nav .nav {
   border: 2px solid #000000;
   border-radius: 10px;
 }
-.products .products li .products li:hover {
+
+.products li:hover {
   border-color: #cc8924;
 }
-.products .products li .products li:hover h2 {
+
+.products li:hover h2 {
   font-size: 34px;
 }
-.products .products li .products li:active {
+
+.products li:active {
   border-color: #0f9b1a;
 }
-.products .products li .products h2 {
+
+.products h2 {
   font-size: 30px;
   font-weight: bold;
 }
-.products .products li .products-description {
+
+.products-description {
   font-size: 18px;
 }
-.products .products li .products-price {
+
+.products-price {
   font-weight: bold;
   font-size: 22px;
   margin: 10px 0 0;
@@ -144,6 +155,10 @@ table td, table th {
 main {
   width: 940px;
   margin: 0 auto;
+}
+main .index-main {
+  padding: 3em 0;
+  background: #fefefe;
 }
 
 .main-title {

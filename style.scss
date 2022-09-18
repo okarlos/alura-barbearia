@@ -13,75 +13,76 @@ nav {
     top: 120px;
     right: 0;
 
-    nav li {
-        display: inline;
-        margin: 0 0 0 15px;
-    }
-
-    nav a {
-        text-transform: uppercase;
-        color: #000000;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: none;
-
-        nav a:hover {
-            color: #cc8924;
-            text-decoration: underline;
-        }
-    }
     
-    .nav {
-        position: relative;
-        width: 940px;
-        margin: 0 auto;
-    }
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;      
+}
+
+nav a:hover {
+    color: #cc8924;
+    text-decoration: underline;
+}
+
+.nav {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .products {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+}
 
-    .products li {
-        display: inline-block;
-        text-align: center;
-        width: 30%;
-        vertical-align: top;
-        margin: 0 1.5%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        border: 2px solid #000000;
-        border-radius: 10px;
+.products li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
 
-        .products li:hover {
-            border-color: #cc8924;
-        }
-        
-        .products li:hover h2 {
-            font-size: 34px;
-        }
-        
-        .products li:active {
-            border-color: #0f9b1a;
-        }
-        
-        .products h2 {
-            font-size: 30px;
-            font-weight: bold;
-        }
+.products li:hover {
+    border-color: #cc8924;
+}
 
-        .products-description {
-            font-size: 18px;
-        }
-        
-        .products-price {
-            font-weight: bold;
-            font-size: 22px;
-            margin: 10px 0 0;
-        }
-        
-    }
+.products li:hover h2 {
+    font-size: 34px;
+}
+
+.products li:active {
+    border-color: #0f9b1a;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products-description {
+    font-size: 18px;
+}
+
+.products-price {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0;
 }
 
 footer {
@@ -164,6 +165,11 @@ table {
 main {
     width: 940px;
     margin: 0 auto;
+
+    .index-main {
+        padding: 3em 0;
+        background: #fefefe;
+    }
 }
 
 .main-title {
