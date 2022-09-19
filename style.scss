@@ -215,12 +215,21 @@ td, th {
     line-height: 1.5;
 }
 
+.item:before {
+    content: "✶ "
+}
+
 .item:first-child {
     font-weight: bold;
 }
 
 .image-benefits {
     width: 60%;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.image-benefits:hover {
+    opacity: 0.5;
 }
 
 .mapa {
@@ -241,4 +250,55 @@ td, th {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+	.nav, .main, .index-content-benefits, .mapa-content, .video, table, fieldset, form {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.index-list-benefits, .image-benefits {
+		width: 100%;
+        box-shadow: 0 0;
+	}
+
+    .products {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .products li {
+        width: 80%;
+    }
+
+    .submit-button, .input-default {
+        width: 80%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-checkbox {
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+
+    .horario {
+        margin: 30px auto;
+    }
 }
